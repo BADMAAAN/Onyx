@@ -1,0 +1,15 @@
+{
+  "qt_version": "6.11.2",
+  "flags": [
+    "--glsl",
+    "100 es,120,150",
+    "--hlsl",
+    "50",
+    "--msl",
+    "12"
+  ],
+  "sha256": {
+    "title.frag": "b99e89c98286b0c22ec31c1cdf5fe1271535a38e068607bd0a7af62ac1ab27b5",
+    "title.frag.qsb": "eed2e1c91b0cbdad4c88a21005a1fcc7b6c8e07273c535a3ff1c77c67ee5cc3c"
+  }
+}

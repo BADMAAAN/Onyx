@@ -1,0 +1,26 @@
+Publisher marks used for descriptive product and model identification
+
+The Factory mark belongs to Factory. The OpenAI mark belongs to OpenAI.
+The DeepSeek mark belongs to DeepSeek. The Meta mark belongs to Meta.
+These marks are not Onyx branding and are not covered by an Onyx source-code
+license. Their appearance does not imply sponsorship, endorsement, partnership,
+or that an external product is installed or connected.
+
+Original asset bytes are retained. Source URLs, ownership context, fingerprints
+and the specific descriptive usage are recorded in app-sources.json.
+
+Factory: https://factory.ai/ ; https://docs.factory.ai/
+OpenAI: https://openai.com/brand/
+DeepSeek: https://www.deepseek.com/ ; https://github.com/deepseek-ai
+Meta Llama: https://github.com/meta-llama
+Meta brand guidance: https://www.meta.com/brand/resources/meta/company-brand/
+
+Codex CLI uses OpenAI's publisher identity beside the explicit Codex CLI name;
+it is not a claim that the OpenAI mark is a separate Codex CLI product logo.
+Droid uses Factory's official favicon beside the explicit Droid name. The
+original factory.svg is retained unchanged. The displayed factory-qt.svg unwraps
+its nested SVG and removes an unresolved clip reference for Qt compatibility;
+all original shape geometry, colors and proportions are retained.
+DeepSeek models use the official DeepSeek organization mark, separately from
+the DeepSeek Harness application's own asset.
+Llama models use the official Meta Llama organization mark beside their names.

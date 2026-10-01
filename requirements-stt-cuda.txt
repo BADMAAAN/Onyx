@@ -1,0 +1,5 @@
+# Optional Windows CUDA runtime used by faster-whisper, not by Silero/PyTorch.
+# Keep the CPU Torch wheel; CTranslate2 owns STT GPU allocations.
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.26.0.51
+nvidia-cuda-nvrtc-cu12==12.9.86

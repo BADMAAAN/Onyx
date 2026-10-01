@@ -1,0 +1,8 @@
+# Optional CPU-only experimental native wake-word training environment.
+# Windows does not need the upstream Linux-only tflite-runtime dependency.
+# Install openwakeword==0.6.0 with --no-deps, then this file.
+scipy==1.18.1
+scikit-learn==1.9.1
+requests==2.34.2
+onnx==1.20.1
+ml_dtypes==0.6.0

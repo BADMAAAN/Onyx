@@ -1,0 +1,90 @@
+{
+  "version": "1.48.0",
+  "modification": "currentColor replaced with #dedede (#ef6666 for trash)",
+  "icons": {
+    "mic": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/mic.svg",
+      "sha256": "77b92406de591b49e716fa662360d4a33f7d0f71f0a1cf8d6c23ae76ac4f4fb1"
+    },
+    "mic-outline": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/mic.svg",
+      "sha256": "77b92406de591b49e716fa662360d4a33f7d0f71f0a1cf8d6c23ae76ac4f4fb1"
+    },
+    "chat": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/message-square.svg",
+      "sha256": "149e3ccf3f479915c7f3efae3c7cf5a3e1a4793398c41a77f227db9ef1803612"
+    },
+    "folder": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/folder.svg",
+      "sha256": "d1d674b28dbea6cdd1d9cf432b1b3fc80d607785b2457e7fce483a6aa8e3eb21"
+    },
+    "settings": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/settings.svg",
+      "sha256": "7ff5645811329e8b7ae2e777feb40901c8825ac62f8d33b38baba9bd21d06998"
+    },
+    "plus": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/plus.svg",
+      "sha256": "9024137230bdd2cf7f24a3b7aef5d9129cf13fbf17bf2577416462ead423d9d4"
+    },
+    "send": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/arrow-up.svg",
+      "sha256": "52502dd936776872be2bb150822fe6dd0b7a317e1fa43f6e3dd023e84887e043"
+    },
+    "stop": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/square.svg",
+      "sha256": "0882acda04af74d1e6e08000ae2ab5b0260d3c6dff6caedf6ea1657fcf8bd3b1"
+    },
+    "archive": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/archive.svg",
+      "sha256": "ee2a4eabc5f91abd5a1f31b45c72aa4f9b79046ab49630c0849c320a1e2489f9"
+    },
+    "close": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/x.svg",
+      "sha256": "04454400cc8a1cbbccecc3fbabc52e96814b42577425f1a494f4f386d1200834"
+    },
+    "maximize": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/maximize.svg",
+      "sha256": "56ea91d95cb33c42d6587f23c711d4127c1eae541656212f3fe82b11d86b516e"
+    },
+    "minimize": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/minus.svg",
+      "sha256": "7471d9717694ec7f1449bccc9031e7ab1fd664696873b49b21596fb1999c03ba"
+    },
+    "more": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/ellipsis.svg",
+      "sha256": "54179bf516cfef000d42e422961eabe2a759dd4de77c8f1729f3e38a064fc5a0"
+    },
+    "wave": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/audio-lines.svg",
+      "sha256": "b258e7b297df870ada6379ac94ff88bfd635adf6db141f614ecdea5d19f5d638"
+    },
+    "document": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/file-text.svg",
+      "sha256": "f359fe8fe7eb7324fe6a95f44d2443157947d3636ae402476d1b2477ce6f727d"
+    },
+    "code": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/code.svg",
+      "sha256": "c08b2409fe4b6608aba049463b0a7a31fa4d7b4cc58cb6978fc869c0d6bc6747"
+    },
+    "idea": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/lightbulb.svg",
+      "sha256": "f3bf666f53d422383dddb05a9a72084a70a61ab703fcae9c823606bc733a2340"
+    },
+    "image": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.48.0/icons/image.svg",
+      "sha256": "79aa991f904b3fa415af9f4a541a37fb69951e76ea6cd4d52d08f55fe055fa6d"
+    },
+    "edit": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/pencil.svg",
+      "sha256": "99372f9da434e10fa86f46ab582b7932065dc1825b75744b50c456b882704ee7"
+    },
+    "pin": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/pin.svg",
+      "sha256": "eecb5d94a8b658d29bcbebb30b739faf17af58b1d072bd47692968e47f036c30"
+    },
+    "trash": {
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/0.468.0/icons/trash-2.svg",
+      "sha256": "67efd849c0fe8cf177184767c5607fc9cd155bbe2621212fca859bdab891b6c8"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "app": {
+    "Discord": ["ds", "дс", "дис", "дэ эс"],
+    "telegram": ["tg", "тг", "тэ гэ", "телега", "телегу", "телеграм", "telegram"],
+    "Codex": ["codex", "кодекс"],
+    "Explorer": ["файловка", "проводник"],
+    "Firefox": ["firefox", "файрфокс"],
+    "VS Code": ["vs code", "visual studio code", "vscode", "ви эс код", "вэ эс код", "вс код", "vs код", "vs-код"],
+    "Visual Studio": ["visual studio", "вижуал студио", "визуал студио"],
+    "браузер": ["браузер", "browser"],
+    "Яндекс Музыка": ["яндекс музыка", "яндекс музыку", "yandex music"]
+  },
+  "url": {
+    "https://chatgpt.com": ["gpt", "чат gpt", "chatgpt", "чатгпт", "джипити", "джи пи ти"],
+    "https://www.youtube.com": ["youtube", "ютуб", "ютюб"],
+    "https://www.4chan.org": ["4chan", "форчан"]
+  }
+}

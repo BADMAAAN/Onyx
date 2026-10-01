@@ -1,0 +1,118 @@
+[
+  {
+    "name": "hermes",
+    "source": "https://github.com/NousResearch/hermes-agent/blob/36dfe5858aca6bdfe39d0eb40c0656afa2195186/apps/desktop/assets/icon.png",
+    "sha256": "2bee6240d4986546a970247988aff4bf46567a90d5f25adf9e2225a00f77060f",
+    "license": "MIT"
+  },
+  {
+    "name": "cline",
+    "source": "https://github.com/cline/cline/blob/b0a6a4518dc0d5ef2c6bdb52633c5d2e93fd6f5c/apps/cline-hub/src/webview/public/icon.png",
+    "sha256": "3c3b09e9f1bba05a62b709d431c2ea03d0b0782db760c72862962492ed9d8fbb",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "deepseek-harness",
+    "source": "https://github.com/deepseek-ai/deepseek-harness/blob/4878cdabd87d4041bdaff61d04c966883b9fd07a/apps/desktop/resources/icon.png",
+    "sha256": "982c2859568d83d2576110a527c545f04641f4008bdb2cfeb6758f333c0fb07a",
+    "license": "MIT"
+  },
+  {
+    "name": "oh-my-pi",
+    "source": "https://github.com/can1357/oh-my-pi/blob/33f887a0c3970f17bd8147df25b73fd88a889353/packages/collab-web/public/favicon-180x180.png",
+    "license": "MIT",
+    "sha256": "89d3a9a26c960c600376daca03c69066a4af7f952fbd515c50ab422a92646622"
+  },
+  {
+    "name": "openclaw",
+    "filename": "openclaw.svg",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/openclaw/openclaw/dc7fe2a2805f72e0d5c729db2aab55b1de86b568/ui/public/favicon.svg",
+    "sha256": "74e1fb7542675f68aafe502576f7c857c3f3620d07095e910515e3c05d62ab2e",
+    "license_source": "https://raw.githubusercontent.com/openclaw/openclaw/dc7fe2a2805f72e0d5c729db2aab55b1de86b568/LICENSE",
+    "notice": "LICENSE-OPENCLAW"
+  },
+  {
+    "name": "copilot",
+    "filename": "copilot.svg",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/primer/octicons/90af1f14984832de34e94b2d530043fbcf85eb7f/icons/copilot-24.svg",
+    "sha256": "ac84a27daca000c532857467b33a2d5ec7a679d45f96b4c7f5261499e115ff2a",
+    "license_source": "https://raw.githubusercontent.com/primer/octicons/90af1f14984832de34e94b2d530043fbcf85eb7f/LICENSE",
+    "notice": "LICENSE-OCTICONS",
+    "source_sha256": "eeafb3c2f333e04ccf7d031ae215f7adafaed4c6352556b0bf79496e048bcdd7",
+    "adaptation": "Set foreground to #f0f0f0 for dark UI; original path geometry unchanged.",
+    "terms": "https://brand.github.com/brand-identity/copilot",
+    "usage": "Supporting icon beside GitHub Copilot name; not a standalone Copilot logo."
+  },
+  {
+    "name": "huggingface",
+    "filename": "huggingface.svg",
+    "license": "Official brand assets for project use; trademark retained by Hugging Face",
+    "source": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/233827f481bf0f0f413795f1f3cd1b131f77e55a/hf-logo.svg",
+    "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0",
+    "terms": "https://huggingface.co/brand"
+  },
+  {
+    "name": "pi",
+    "filename": "pi.svg",
+    "source": "https://raw.githubusercontent.com/earendil-works/pi/cb7969d212836b8939001dce159fbd2ed6ad395f/packages/coding-agent/src/modes/interactive/components/pi-logo.ts",
+    "source_sha256": "120664ae4e5982b4b1325da5cfffd35ea8ffd201cde6ce566d9383b9a6813c4e",
+    "sha256": "d4d3c4f55f8fc942760fa9c062982efce8e4a2cb1b2d137d932d92828aa82149",
+    "license": "MIT",
+    "license_source": "https://raw.githubusercontent.com/earendil-works/pi/cb7969d212836b8939001dce159fbd2ed6ad395f/LICENSE",
+    "notice": "LICENSE-PI",
+    "adaptation": "Exact 4x4 cell geometry and fixed RGB colors from upstream piLogoLines, represented as SVG paths. No new design."
+  },
+  {
+    "name": "factory",
+    "filename": "factory-qt.svg",
+    "source": "https://factory.ai/favicon.svg",
+    "official_identity": "https://factory.ai/",
+    "sha256": "fa8f63c0fd5262fe1ecd4a21eef1e64252051d907966224ebf51ca3d75fe58f1",
+    "license": "Publisher trademark; ownership retained by the publisher, not an Onyx or MIT-licensed mark",
+    "terms": "https://factory.ai/",
+    "usage": "Faithful Qt-compatible representation of the Factory publisher mark beside the explicit Droid product name.",
+    "notice": "NOTICE-PUBLISHER-MARKS",
+    "retrieved_utc": "2026-09-29",
+    "original_filename": "factory.svg",
+    "source_sha256": "416ea4962d7b0b8be8bec7f7190c13c22d5f20fdcac401aa72886fd5c81d2fb2",
+    "adaptation": "Extract the original inner SVG as the root and remove its unresolved clip-path reference. Preserve every path, fill color, viewBox and shape; Qt renders nested original as empty. Unmodified original is retained as factory.svg."
+  },
+  {
+    "name": "codex-publisher",
+    "filename": "openai.png",
+    "source": "https://avatars.githubusercontent.com/u/14957082?v=4",
+    "official_identity": "https://github.com/openai",
+    "sha256": "6025a4347a8eaed17e31eaebf7834e33ec4af26cc7f59be586ac59ba5157fa1c",
+    "license": "Publisher trademark; ownership retained by the publisher, not an Onyx or MIT-licensed mark",
+    "terms": "https://openai.com/brand/",
+    "usage": "Existing unmodified OpenAI publisher mark beside Codex CLI; not claimed as a separate Codex product logo.",
+    "notice": "NOTICE-PUBLISHER-MARKS",
+    "retrieved_utc": "2026-09-29"
+  },
+  {
+    "name": "deepseek-model-family",
+    "filename": "deepseek.png",
+    "source": "https://avatars.githubusercontent.com/u/148330874?v=4",
+    "official_identity": "https://github.com/deepseek-ai",
+    "sha256": "55e6e0c1ba0c453749211368b8a26e00f470b4ab696ce1fed539d70777d4aab1",
+    "license": "Publisher trademark; ownership retained by the publisher, not an Onyx or MIT-licensed mark",
+    "terms": "https://www.deepseek.com/",
+    "usage": "Unmodified official DeepSeek organization mark beside model-family names; separate from DeepSeek Harness app icon.",
+    "notice": "NOTICE-PUBLISHER-MARKS",
+    "retrieved_utc": "2026-09-29"
+  },
+  {
+    "name": "meta-llama-model-family",
+    "filename": "meta-llama.png",
+    "source": "https://avatars.githubusercontent.com/u/153379578?v=4",
+    "official_identity": "https://github.com/meta-llama",
+    "sha256": "3876b393102ffb040fbac5d953f1ec01586d91932634052c8662376e60b0ca57",
+    "license": "Publisher trademark; ownership retained by the publisher, not an Onyx or MIT-licensed mark",
+    "terms": "https://www.meta.com/brand/resources/meta/company-brand/",
+    "usage": "Unmodified official Meta Llama organization mark beside Llama model names; descriptive publisher identification only.",
+    "notice": "NOTICE-PUBLISHER-MARKS",
+    "retrieved_utc": "2026-09-29"
+  }
+]

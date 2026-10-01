@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+ <defs>
+  <linearGradient id="pearl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcff"/><stop offset=".22" stop-color="#c7d6ea"/><stop offset=".45" stop-color="#f4f1fa"/><stop offset=".69" stop-color="#c4b9d4"/><stop offset=".86" stop-color="#ead8df"/><stop offset="1" stop-color="#fbfcff"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#929bb4"/><stop offset=".45" stop-color="#fcfdff"/><stop offset="1" stop-color="#e0daed"/></linearGradient>
+ </defs>
+ <path d="M120 18 C148 18 159 54 184 73 C208 92 224 111 215 137 C207 164 177 164 158 188 C140 212 121 228 99 213 C76 199 78 173 52 157 C27 141 15 119 28 97 C41 74 67 77 82 51 C93 32 100 18 120 18Z" fill="url(#pearl)"/>
+ <path d="M120 18 C104 61 103 85 124 108 C149 135 177 139 215 137 C176 133 155 115 142 93 C128 69 129 45 120 18Z" fill="#fff" opacity=".34"/>
+ <path d="M28 97 C65 100 86 106 101 128 C118 153 108 185 99 213 C125 179 136 156 124 129 C110 99 75 89 28 97Z" fill="url(#edge)" opacity=".72"/>
+ <path d="M184 73 C149 79 119 96 106 121 C93 146 77 154 52 157 C88 161 111 149 122 124 C133 101 151 85 184 73Z" fill="#fbfaff" opacity=".48"/>
+</svg>

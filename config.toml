@@ -1,0 +1,173 @@
+[agent]
+name = "Onyx"
+public_name = "Оникс"
+language = "ru"
+max_tool_rounds = 24
+max_steps = 64
+task_timeout_seconds = 300
+verify_desktop_completion = true
+
+[brain]
+provider = "ollama"
+model = "qwen3:14b"
+fast = "qwen3:14b"
+deep = "qwen3:14b" # one resident Brain, selected for voice/desktop VRAM headroom
+temperature = 0.2
+context_window = 4096 # measured with resident Whisper CUDA; preserve 2.5 GiB VRAM reserve
+keep_alive = "30m"
+
+[resources]
+ram_reserve_gb = 8
+stt_vram_gb = 2
+vram_reserve_gb = 2.5
+
+# Measured /api/ps residency at 8192 context, rounded UP. Unknown contexts use
+# the conservative file-size estimator. Watchdog remains authoritative.
+[resources.model_profiles."qwen2.5:14b"]
+context = 8192
+resident_gb = 9.75
+
+[resources.model_profiles."gpt-oss:20b"]
+context = 8192
+resident_gb = 12.0
+
+[resources.model_profiles."qwen3:14b"]
+context = 4096
+resident_gb = 9.0 # measured 8.9848 GiB full GPU on 2026-09-28, rounded up
+
+[vision]
+provider = "ollama"
+model = "qwen3-vl:8b"
+mode = "dual"
+max_dimension = 1600
+unload_between_models = true
+keep_screenshots = false
+
+[voice]
+enabled = true
+microphone = "Analogue 1 + 2"
+push_to_talk_hotkey = "ctrl+space"
+stt_model = "large-v3-turbo" # hardware/replay choice; live Focusrite acceptance pending
+stt_device = "cuda"
+stt_compute_type = "int8_float16"
+stt_cpu_threads = 6 # measured on this 6-core machine, unchanged model/beam
+language = "auto"
+silence_seconds = 0.75
+minimum_speech_seconds = 0.12
+silence_threshold = 0.0015
+pre_roll_seconds = 0.30
+post_roll_seconds = 0.18
+max_record_seconds = 30
+manual_max_record_seconds = 300 # exceeding this cancels; never executes a truncated thought
+tts_model_url = "https://models.silero.ai/models/tts/ru/v4_ru.pt"
+tts_voice = "baya"
+tts_english_voice = "Microsoft Zira Desktop" # already installed, local SAPI -> existing PCM queue
+tts_sample_rate = 48000
+tts_volume = 1.0
+tts_muted = false
+tts_cpu_threads = 2
+tts_rate = "medium" # Silero SSML: x-slow, slow, medium, fast, x-fast
+tts_pitch = "medium" # x-low, low, medium, high, x-high
+barge_in_mode = "speech"
+conversation_timeout = 25
+persist_transcripts = false
+incomplete_silence_seconds = 3.0 # incomplete endings still wait until continuation or capture limit
+unknown_silence_seconds = 1.2
+partial_interval_seconds = 1.0
+log_prob_threshold = -0.8
+no_speech_threshold = 0.6
+compression_ratio_threshold = 2.4
+hallucination_silence_threshold = 1.0
+minimum_word_probability = 0.35
+aec_enabled = true
+aec_delay_ms = 50
+ducking_enabled = true
+ducking_level = 0.25
+ducking_fade_ms = 180
+hotwords = ["Оникс", "Onyx", "Кей Кей", "KK", "AyuGram", "Telegram", "Discord", "DS", "TG", "GPT", "ChatGPT", "Hearthstone", "Battle.net", "Ollama", "Qwen", "Qwen3", "Qwen3-VL", "Codex", "Focusrite", "VS Code", "Visual Studio", "PowerShell", "Git", "GitHub", "Python", "SpaceGram", "FLUX"]
+
+[voice.final_options]
+beam_size = 5
+temperature = 0.0
+condition_on_previous_text = false
+vad_filter = false
+
+[voice.retry_options]
+beam_size = 8
+temperature = 0.0
+condition_on_previous_text = false
+vad_filter = true
+
+[wakeword]
+mode = "temporary"
+phrase = "оникс"
+model_path = 'data/models/wakeword/key_key.onnx'
+threshold = 0.65
+consecutive_frames = 2
+
+[context]
+retention_seconds = 900
+interval_seconds = 2.0
+screen_interval_seconds = 8.0
+idle_threshold_seconds = 180
+session_gap_seconds = 600
+proactive_suggestions = false
+
+[ui]
+orb_compatibility = false # old draggable sphere only when explicitly requested
+edge_intensity = 0.70
+edge_reduced_motion = true
+edge_calm_mode = true # static default; false permits only a gentle smoothed voice envelope
+edge_halo = 64 # logical pixels; diffuse falloff, no bright core/fullscreen blur
+edge_appear_ms = 420
+edge_fade_ms = 650
+orb_size = 144
+orb_fps = 60
+orb_renderer = "qtquick"
+fullscreen_auto_hide = true
+overlay_monitor_policy = "active_window"
+overlay = true
+tray = true
+
+[orb]
+hide_in_fullscreen = true
+fullscreen_voice_edge = true
+
+[persona]
+gender = "female"
+style = "Естественно, коротко, тепло. Можно слегка подшутить к месту; без helpdesk-шаблонов и повторения команды."
+
+[providers.ollama]
+base_url = "http://127.0.0.1:11434"
+timeout_seconds = 180
+
+[providers.lmstudio]
+base_url = "http://127.0.0.1:1234/v1"
+timeout_seconds = 180
+
+[permissions]
+autonomy = "full"
+autonomy_level = "full"
+confirmation_timeout_seconds = 60
+
+[apps]
+powershell = "auto" # installed pwsh first, otherwise Windows PowerShell; ignores bundled helper runtimes
+
+[apps.aliases]
+notepad = "notepad.exe"
+"блокнот" = "notepad.exe"
+calculator = "calc.exe"
+"калькулятор" = "calc.exe"
+telegram = "C:/AyuGram/AyuGram.exe"
+"телеграм" = "C:/AyuGram/AyuGram.exe"
+"телега" = "C:/AyuGram/AyuGram.exe"
+ayugram = "C:/AyuGram/AyuGram.exe"
+
+[preferences]
+telegram_client = "AyuGram"
+browser = "Firefox"
+music_app = "Яндекс Музыка"
+
+[decision]
+high_confidence = 0.84
+context_confidence = 0.65

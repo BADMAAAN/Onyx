@@ -1,0 +1,10 @@
+# Shader fingerprints must survive Windows checkouts unchanged.
+onyx_desktop/assets/title.frag text eol=lf
+onyx_desktop/assets/*.qsb binary
+# Preserve the exact bytes recorded by the upstream brand-asset manifest.
+onyx_desktop/assets/openclaw.svg -text
+onyx_desktop/assets/pi.svg -text
+onyx_desktop/assets/copilot.svg -text
+onyx_desktop/assets/huggingface.svg -text
+onyx_desktop/assets/factory.svg -text
+onyx_desktop/assets/factory-qt.svg -text
